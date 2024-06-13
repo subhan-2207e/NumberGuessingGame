@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
 console.log("Wellcome to subhan Cli Number Guessing Game");
-const ramdanNumber = Math.floor(Math.random() * 2 + 1);
+const ramdanNumber = Math.floor(Math.random() * 5 + 1);
 const answer = await inquirer.prompt([
     {
         name: "NumberGuessingGame",
